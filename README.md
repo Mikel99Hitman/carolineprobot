@@ -190,6 +190,13 @@ A professional Discord bot with advanced features for server management.
 - ✅ **Birthday System** - Track and celebrate birthdays
 - ✅ **Word Games** - Interactive word guessing games
 
+### 🕊️ Islamic Features (5 commands)
+- `/adhkar` - Islamic remembrance (morning, evening, sleep, custom)
+- `/prayer-times` - Prayer times for 7 cities with Qibla direction
+- `/islamic-holidays` - Islamic holidays calendar with countdown
+- `/tasbih` - Digital prayer beads with 7 dhikr types and statistics
+- `/quran` - Quran reader with search and daily verses
+ 
 ### 🛡️ **Moderation & Security (18 Features)**
 - ✅ **Advanced Moderation** - Warn, mute, kick, ban with logging
 - ✅ **Anti-Raid Protection** - Automatic raid detection and response
@@ -253,6 +260,40 @@ A professional Discord bot with advanced features for server management.
 - ✅ **Smart Home Gaming** - IoT-integrated entertainment
 - ✅ **Fitness Challenges** - Health and fitness competitions
 - ✅ **Virtual Reality Integration** - VR-ready entertainment features
+ 
+### 🕊️ Islamic System
+- Complete Islamic features package with 5 comprehensive commands
+- Digital Tasbih with 7 dhikr types, achievements, and leaderboards
+- Prayer times for 7 major cities with Qibla direction
+- Islamic holidays calendar with countdown and notifications
+- Comprehensive Adhkar system (morning, evening, sleep, custom)
+- Quran reader with search functionality and daily verses
+- PostgreSQL integration for statistics and user progress
+- Interactive buttons and real-time updates
+
+### 🎮 Giveaway System
+- Multiple requirements (role, level, invites)
+- Automatic winner selection
+- Reroll functionality
+- Webhook notifications
+- Statistics tracking 
+
+- ### 🆕 New Features (v3.0)
+- **Scientific Calculator** - Advanced calculator with scientific functions
+- **Confession System** - Anonymous confessions with moderation
+- **Counting Game** - Interactive counting game with statistics
+- **Advanced Gambling** - Multiple gambling games (slots, blackjack, roulette)
+- **Content Filter** - Advanced content filtering with severity levels
+- **FiveM Integration** - Roleplay system for FiveM servers
+- **Interactive Help** - Comprehensive help system with categories
+- **Image Processing** - Advanced image manipulation and effects
+- **Enhanced Music Player** - Multi-source support with queue management
+- **Islamic System** - Complete Islamic features package
+  - **Digital Tasbih** - Electronic prayer beads with 7 dhikr types
+  - **Prayer Times** - Prayer times for 7 cities with Qibla direction
+  - **Islamic Holidays** - Holiday calendar with countdown timers
+  - **Adhkar System** - Morning, evening, sleep, and custom remembrance
+  - **Quran Reader** - Surah reading with search and daily verses
 
 ## 📋 **COMPLETE COMMAND LIST**
 
@@ -543,22 +584,6 @@ After inviting the bot to your server, use these commands for setup:
 /giveaway duration:1h prize:"Discord Nitro" winners:1 channel:#giveaways
 ```
 
-## 🗂️ هيكل المشروع
-
-```
-SQDF/
-├── commands/           # مجلد الأوامر
-│   ├── admin/         # أوامر الإدارة
-│   ├── general/       # أوامر عامة
-│   ├── levels/        # أوامر المستويات
-│   ├── music/         # أوامر الموسيقى
-│   └── tickets/       # أوامر التذاكر
-├── events/            # معالجات الأحداث
-├── models/            # نماذج قاعدة البيانات
-├── index.js           # الملف الرئيسي
-├── deploy-commands.js # تسجيل الأوامر
-└── package.json       # معلومات المشروع
-```
 
 ## 🔧 التخصيص
 
